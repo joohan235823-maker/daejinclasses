@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/api/timetable", "destination": "/api/timetable.ts" },
+    { "source": "/api/meal", "destination": "/api/meal.ts" },
+    { "source": "/api/schedule", "destination": "/api/schedule.ts" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

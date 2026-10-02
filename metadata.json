@@ -1,0 +1,8 @@
+{
+  "name": "대진전자통신고등학교 시간표",
+  "description": "대진전자통신고등학교 실시간 이번 주 시간표, 급식 메뉴 및 학사일정 조회 서비스",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
